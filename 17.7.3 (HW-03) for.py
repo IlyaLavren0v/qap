@@ -6,4 +6,4 @@ deposit = []
 for i in list_percent:
     deposit.append(int(investment/100 * i))
 
-print(max(deposit))
+print("Максимальный доход ваших вложений:", max(deposit))
