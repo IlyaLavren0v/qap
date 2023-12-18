@@ -9,4 +9,4 @@ deposit.append(int(investment / 100 * list_percent[1]))
 deposit.append(int(investment / 100 * list_percent[2]))
 deposit.append(int(investment / 100 * list_percent[3]))
 
-print(max(deposit))
+print("Максимальный доход ваших вложений:", max(deposit))
